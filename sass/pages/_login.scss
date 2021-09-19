@@ -1,0 +1,129 @@
+.container {
+  background-color: #f7f7f7;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login_container {
+  display: flex;
+  flex-direction: row;
+
+  width: 50%;
+  height: 80%;
+
+  &--left {
+    border-radius: 20px 0 0 20px;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(91, 114, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &--right {
+    border-radius: 0 20px 20px 0;
+    width: 50%;
+    height: 100%;
+    background-color: $color-primary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.input_container {
+  border-radius: 12px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90%;
+  background-position: center;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.904),
+      rgba(91, 114, 218, 0.83)
+    ),
+    url("/img/fondomarino3.jpg");
+
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  padding: 5% 7%;
+  justify-content: space-between;
+
+  &--title {
+    color: $color-primary;
+    width: 100%;
+    height: 15%;
+    margin: 2% 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    border-radius: 5px;
+  }
+  &--item {
+    color: black;
+    width: 100%;
+    height: 45%;
+    margin: 2% 0%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+  }
+  &--button {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 20%;
+    margin: 2% 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+#titulo {
+  text-align: center;
+}
+#logo {
+  height: 100%;
+}
+.sesion {
+  background-color: rgb(41, 201, 108);
+
+  color: white;
+}
+
+#azul {
+  background-color: $color-primary;
+  &:hover {
+    background-color: $color-primary-dark;
+  }
+}
+#verde {
+  background-color: rgb(2, 226, 103);
+  &:hover {
+    background-color: rgb(0, 184, 83);
+  }
+}
+.cuestion {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline-color: $color-primary;
+  background-color: rgba(240, 240, 240, 0.904);
+}
+.image_container {
+  display: flex;
+  width: 90%;
+  height: 90%;
+  &--image {
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    background-image: url("/img/elpituche.png"),
+      linear-gradient(rgba(255, 255, 255, 0.83), $color-primary);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+}

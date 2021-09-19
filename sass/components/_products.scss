@@ -1,0 +1,32 @@
+.products {
+  height: 100vh;
+  padding: 1rem 5vw;
+  background-color: $color-white;
+}
+
+.product {
+  background-color: $color-grey-light-2;
+  height: 10vw;
+  margin: 5rem;
+  display: flex;
+  align-items: center;
+  padding: 0rem 1rem;
+  &_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    &--image {
+      background-image: url("https://assets.mofoprod.net/network/images/Oura-ring_tu6zm0_SdoqOCe.width-250.jpg");
+      width: 5rem;
+      height: 5rem;
+      margin-right: 3rem;
+      background-position: center;
+      background-size: cover;
+    }
+
+    &--title {
+      color: $color-black;
+    }
+  }
+}
