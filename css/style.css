@@ -563,3 +563,26 @@ ORDER: Base + typography > general layout + grid > page layout > components
   background: linear-gradient(#bd0707, #72430d);
   -webkit-background-clip: text;
   color: transparent; }
+
+.chatbots_container {
+  width: 100%;
+  height: 100%; }
+
+.chatbots_filter {
+  background-color: blue;
+  width: 100%;
+  height: 8%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around; }
+
+.chatbots_content {
+  background-color: #5a5af5;
+  width: 100%;
+  height: 92%; }
+
+.chatbots_option {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between; }
